@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LnX Store</title>
     <link rel="shortcut icon" href="assets/img/lnx-png.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/register.css">
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="#">PRODUTOS</a></li>
                 <li><a href="index.html">QUEM SOMOS</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><a href="login.html">LOGIN</a></li>
             </ul>
         </nav>
     </header>
@@ -23,13 +23,18 @@
     <main>
         <div id="main-container">
             <div id="formzin">
-                <h2 class="toptop">Bem vindo de volta!</h2>
-                <p>Estamos muito animados em te ver novamente!</p>
+                <h2 class="toptop">Criar uma conta!</h2>
                 <form id="login-form">
                     <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" name="senha" placeholder="Senha" required>
-                    <input type="submit" value="Entrar">
-                    <h3 class="registro">Precisando de uma conta?<a href="register.html"> Registre-se</a></h3>
+                    <br>
+                    <input type="text" name="username" placeholder="Nome de usuário" required>
+                    <br>
+                    <input type="password" name="senha" placeholder="Sua senha" required>
+                    <br>
+                    <input type="password" name="senha" placeholder="Confirme sua senha" required>
+                    <br>
+                    <input type="submit" value="Continuar">
+                    <h3 class="registro"><a href="login.html"> Já tem uma conta?</a></h3>
                 </form>
             </div>
         </div>

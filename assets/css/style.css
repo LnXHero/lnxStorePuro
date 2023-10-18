@@ -8,6 +8,7 @@
 html {
     background-color: #212121;
 }
+
 /*-------------------------------------------------------
 ------------------------ Nav Bar ------------------------
 ---------------------------------------------------------*/
@@ -17,7 +18,7 @@ html {
 
 .nav-container,
 .nav-bar {
-    background-color: rgb(28, 28, 28);
+    /* background-color: rgb(28, 28, 28); */
     /* position: fixed; */
     width: 100%;
 }
@@ -33,6 +34,8 @@ html {
     margin: 0;
     padding: 0;
     text-align: right;
+    margin-right: 286px;
+    /* margin-left: 261px; */
     text-shadow: 1px 1px 2px gray;
 }
 
@@ -42,14 +45,14 @@ html {
 }
 
 .nav-bar li a {
-    padding: 50px 110px;
+    padding: 50px 50px;
     /* tamanho da pagina  --  distancia dos <a> */
     text-decoration: none;
     /* tirar o underline */
     color: rgb(160, 160, 160);
     display: inline-block;
     margin-right: -3px;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 0.60;
 }
 
@@ -133,13 +136,14 @@ html {
     width: 50%;
 }
 
-.quem-somos-text h1{
+.quem-somos-text h1 {
     color: rgb(184, 0, 184);
     text-shadow: 3px 3px 5px purple;
     margin-left: 300px;
     font-size: 40px;
 }
-.quem-somos-text p{
+
+.quem-somos-text p {
     font-size: 20px;
     margin-left: 283px;
     color: white;
@@ -176,14 +180,16 @@ html {
     width: 50%;
 }
 
-.diferencial-text h1{
+.diferencial-text h1 {
     color: rgb(184, 0, 184);
     text-shadow: 3px 3px 5px purple;
     font-size: 40px;
 }
-.diferencial-text p{
+
+.diferencial-text p {
     font-size: 20px;
     margin-left: -30px;
+    max-width: 700px;
     color: white;
 }
 
@@ -193,9 +199,56 @@ html {
 ---------------------------------------------------------*/
 
 .diferencial-foto img {
-    margin-top: -100px;
+    margin-top: -68px;
     margin-left: 30px;
     width: 758px;
     border-radius: 20px;
     margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------
+-------------------------- Footer -----------------------
+---------------------------------------------------------*/
+
+.footer-main-container {
+    display: flex;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    background-color: rgba(19, 19, 19, 0.73);
+    color: #b6b5b5;
+    align-items: center;
+    justify-content: center;
 }
