@@ -11,37 +11,37 @@ html {
 /*-------------------------------------------------------
 ------------------------ Nav Bar ------------------------
 ---------------------------------------------------------*/
-#nav-container {
+.nav-container {
     display: flex;
 }
 
-#nav-container,
-#nav-bar {
+.nav-container,
+.nav-bar {
     background-color: rgb(28, 28, 28);
     /* position: fixed; */
     width: 100%;
 }
 
-#nav-container img {
+.nav-container img {
     margin-left: 253px;
     z-index: 1;
     width: 127px;
     height: 127px;
 }
 
-#nav-bar {
+.nav-bar {
     margin: 0;
     padding: 0;
     text-align: right;
     text-shadow: 1px 1px 2px gray;
 }
 
-#nav-bar li {
+.nav-bar li {
     list-style: none;
     display: inline;
 }
 
-#nav-bar li a {
+.nav-bar li a {
     padding: 50px 110px;
     /* tamanho da pagina  --  distancia dos <a> */
     text-decoration: none;
@@ -53,7 +53,7 @@ html {
     letter-spacing: 0.60;
 }
 
-#nav-bar li a:hover {
+.nav-bar li a:hover {
     color: white;
 }
 
@@ -61,18 +61,18 @@ html {
 /*-------------------------------------------------------
 ---------------------- Main Texts -----------------------
 ---------------------------------------------------------*/
-#container-principal {
+.container-principal {
     display: flex;
     margin-top: 200px;
 }
 
-#lnx-text,
-#lnx-foto {
+.lnx-text,
+.lnx-foto {
     flex: 1 1 0;
     width: 50%;
 }
 
-#lnx-text h1 {
+.lnx-text h1 {
     text-align: center;
     color: #e9e9e9;
     text-shadow: 3px 3px 5px gray;
@@ -82,7 +82,7 @@ html {
     font-weight: 600;
 }
 
-#lnx-text p {
+.lnx-text p {
     color: #e9e9e9;
     text-shadow: 1px 1px 3px gray;
     font-family: cursive;
@@ -91,7 +91,7 @@ html {
     text-align: left;
 }
 
-#lnx-text a button {
+.lnx-text a button {
     border: 2px solid rgb(0, 0, 0);
     color: black;
     margin-top: 25px;
@@ -105,12 +105,12 @@ html {
     font-weight: 600;
 }
 
-#lnx-foto {
+.lnx-foto {
     display: flex;
     justify-content: center;
 }
 
-#lnx-foto img {
+.lnx-foto img {
     margin-left: -240px;
     margin-top: -70px;
     width: 500px;
@@ -126,21 +126,76 @@ html {
     margin-top: 200px;
 }
 
-#quem-somos-text,
-#quem-somos-foto {
+.quem-somos-text,
+.quem-somos-foto {
     margin-top: 200px;
     flex: 1 1 0;
     width: 50%;
 }
 
-#quem-somos-text h1{
+.quem-somos-text h1{
     color: rgb(184, 0, 184);
     text-shadow: 3px 3px 5px purple;
     margin-left: 300px;
     font-size: 40px;
 }
-#quem-somos-text p{
+.quem-somos-text p{
     font-size: 20px;
     margin-left: 283px;
     color: white;
+}
+
+
+/*-------------------------------------------------------
+-------------------- quem somos foto --------------------
+---------------------------------------------------------*/
+
+.quem-somos-foto img {
+    margin-top: -26px;
+    margin-left: 114px;
+    width: 578px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+
+
+/*-------------------------------------------------------
+---------------------- DIFERENCIAL ----------------------
+---------------------------------------------------------*/
+
+#diferencial-container {
+    display: flex;
+    margin-top: 200px;
+}
+
+.diferencial-text,
+.diferencial-foto {
+    margin-top: 200px;
+    flex: 1 1 0;
+    width: 50%;
+}
+
+.diferencial-text h1{
+    color: rgb(184, 0, 184);
+    text-shadow: 3px 3px 5px purple;
+    font-size: 40px;
+}
+.diferencial-text p{
+    font-size: 20px;
+    margin-left: -30px;
+    color: white;
+}
+
+
+/*-------------------------------------------------------
+------------------- DIFERENCIAL foto --------------------
+---------------------------------------------------------*/
+
+.diferencial-foto img {
+    margin-top: -100px;
+    margin-left: 30px;
+    width: 758px;
+    border-radius: 20px;
+    margin-bottom: 200px;
 }

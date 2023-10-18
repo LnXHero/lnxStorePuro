@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: #212121;
+    background-image: url(../img/lnx-png.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/*-------------------------------------------------------
+------------------------ Nav Bar ------------------------
+---------------------------------------------------------*/
+.nav-container {
+    display: flex;
+}
+
+.nav-container,
+.nav-bar {
+    background-color: rgb(28, 28, 28);
+    /* position: fixed; */
+    width: 100%;
+}
+
+.nav-container img {
+    margin-left: 253px;
+    z-index: 1;
+    width: 127px;
+    height: 127px;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-bar li a {
+    padding: 50px 110px;
+    /* tamanho da pagina  --  distancia dos <a> */
+    text-decoration: none;
+    /* tirar o underline */
+    color: rgb(160, 160, 160);
+    display: inline-block;
+    margin-right: -3px;
+    font-size: 20px;
+    letter-spacing: 0.60;
+}
+
+.nav-bar li a:hover {
+    color: white;
+}
+
+
+/*-------------------------------------------------------
+--------------------  Login de Form ---------------------
+---------------------------------------------------------*/
+main {
+    height: 765px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    text-align: center;
+}
+
+/* LOGIN FORM */
+#formzin {
+    background-color: rgb(28, 28, 28);
+    border: 1px solid #DBDBDB;
+    margin-left: -130px;
+    width: 420px;
+    margin-top: 20px;
+}
+
+#formzin h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#formzin p {
+    color: rgb(151, 151, 151);
+}
+#formzin h3 {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+#formzin h3 a{
+    text-decoration: none;
+    color: rgb(255, 79, 246);
+}
+.toptop {
+    margin-top: 30px;
+}
+
+#login-form {
+    margin-top: 40px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type=submit] {
+    background-color: #a100a7;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0 solid white;
+    height: 32px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: 650;
+    margin-bottom: 50px;
+}
