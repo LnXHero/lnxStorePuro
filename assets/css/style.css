@@ -18,8 +18,10 @@ html {
 
 .nav-container,
 .nav-bar {
-    /* background-color: rgb(28, 28, 28); */
-    /* position: fixed; */
+    /* position: fixed; (deixar fixado)
+    top: 0;     (posicionar)
+    left: 0;    (posicionar)
+    z-index: 1; (da prioridade na tela) */
     width: 100%;
 }
 
@@ -131,7 +133,6 @@ html {
 
 .quem-somos-text,
 .quem-somos-foto {
-    margin-top: 200px;
     flex: 1 1 0;
     width: 50%;
 }
@@ -170,7 +171,7 @@ html {
 
 #diferencial-container {
     display: flex;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .diferencial-text,
